@@ -67,8 +67,8 @@ fun main(args: Array<String>) {
     val getPort = getPort()
 
     println(getPort)
-    val port = "/dev/ttyUSB0"
-    val baud_rate = 115200
+    val port = "/dev/ttyACM1"
+    val baud_rate = 9600
 
 
     val serialPort = SerialComm2(port, baud_rate)
@@ -97,7 +97,7 @@ fun main(args: Array<String>) {
 
                 }
 
-                Thread.sleep(100)
+                Thread.sleep(1)
             }
 
         } catch (e: Exception) {

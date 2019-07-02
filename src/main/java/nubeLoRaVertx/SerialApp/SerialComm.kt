@@ -8,7 +8,7 @@ import java.io.PrintWriter
 import java.util.*
 
 
-class SerialComm2(port: String, private var baudRate: Int = 115200) {
+class SerialComm2(port: String, private var baudRate: Int = 9600) {
 
     private var serialPort = SerialPort.getCommPort(port).also {
         it.baudRate = baudRate

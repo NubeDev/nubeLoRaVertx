@@ -1,7 +1,30 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="232955ee-63ff-45f0-9fb1-038bd6ef198c" name="Default Changelist" comment="" />
+    <list default="true" id="232955ee-63ff-45f0-9fb1-038bd6ef198c" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/App.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Handle/RestHendle.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/MainVerticle.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Response/Sensor.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Response/addSensor.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Response/getAllSensors.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Response/getNodeID.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Response/updateSensor.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/db/SqlConnector.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/db/dbPath.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/nubeLoRaVertx/SerialApp/AllowedSensors.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/nubeLoRaVertx/SerialApp/test.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/nubeLoRaVertx/SerialApp/vertxWebClientAddSensor.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/nubeLoRaVertx/SerialApp/App.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/nubeLoRaVertx/SerialApp/App.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/nubeLoRaVertx/SerialApp/SerialComm.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/nubeLoRaVertx/SerialApp/SerialComm.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/nubeLoRaVertx.kotlin_module" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/META-INF/nubeLoRaVertx.kotlin_module" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/nubeLoRaVertx/SerialApp/AppKt$main$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/nubeLoRaVertx/SerialApp/AppKt$main$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/nubeLoRaVertx/SerialApp/AppKt.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/nubeLoRaVertx/SerialApp/AppKt.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/nubeLoRaVertx/SerialApp/SerialComm2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/nubeLoRaVertx/SerialApp/SerialComm2.class" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -14,58 +37,50 @@
     <option name="isMigrated" value="true" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/nubeLoRaVertx/SerialApp/App.kt">
+        <entry file="file://$PROJECT_DIR$/src/main/java/Handle/RestHendle.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret selection-end-column="31" />
+            <state relative-caret-position="252">
+              <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
               <folding>
-                <element signature="e#33#140#0" expanded="true" />
+                <element signature="e#17#401#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/vertx/eventBus/Sender.kt">
+        <entry file="file://$PROJECT_DIR$/src/main/java/nubeLoRaVertx/SerialApp/kotlinHash.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="31" selection-start-column="31" selection-end-column="31" />
+            <state relative-caret-position="378">
+              <caret line="21" column="9" lean-forward="true" selection-start-line="21" selection-start-column="9" selection-end-line="21" selection-end-column="9" />
+              <folding>
+                <element signature="e#33#98#0" expanded="true" />
+              </folding>
             </state>
           </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/vertx/Handle/RestHendle.kt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="36">
-              <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/vertx/Main.kt">
-          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/vertx/eventBus/Receiver.kt">
+        <entry file="file://$PROJECT_DIR$/src/main/java/nubeLoRaVertx/SerialApp/AllowedSensors.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret selection-end-column="43" />
+            <state relative-caret-position="324">
+              <caret line="18" selection-start-line="18" selection-end-line="25" selection-end-column="67" />
+              <folding>
+                <element signature="e#34#151#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/nubeLoRaVertx/SerialApp/SerialComm.kt">
+        <entry file="file://$PROJECT_DIR$/src/main/java/nubeLoRaVertx/SerialApp/vertxWebClientAddSensor.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="522">
-              <caret line="29" lean-forward="true" selection-start-line="29" selection-end-line="29" />
+            <state relative-caret-position="126">
+              <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
               <folding>
-                <element signature="e#33#255#0" expanded="true" />
+                <element signature="e#45#146#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -74,8 +89,59 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="538">
-              <caret line="67" column="33" lean-forward="true" selection-start-line="67" selection-start-column="33" selection-end-line="67" selection-end-column="33" />
+            <state relative-caret-position="70">
+              <caret line="44" column="17" selection-start-line="44" selection-start-column="17" selection-end-line="44" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/Response/getAllSensors.kt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="333">
+              <caret line="40" column="51" selection-start-line="40" selection-start-column="51" selection-end-line="40" selection-end-column="51" />
+              <folding>
+                <element signature="e#18#142#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/nubeLoRaVertx/SerialApp/test.kt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="342">
+              <caret line="19" selection-start-line="19" selection-end-line="21" selection-end-column="16" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/nubeLoRaVertx/SerialApp/SerialComm.kt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="394">
+              <caret line="24" column="42" selection-start-line="24" selection-start-column="42" selection-end-line="24" selection-end-column="42" />
+              <folding>
+                <element signature="e#33#255#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/Response/addSensor.kt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="144">
+              <caret line="8" selection-start-line="8" selection-end-line="8" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/Response/updateSensor.kt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="558">
+              <caret line="31" column="8" selection-start-line="31" selection-start-column="8" selection-end-line="31" selection-end-column="8" />
             </state>
           </provider>
         </entry>
@@ -85,37 +151,62 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Kotlin Class" />
         <option value="Kotlin File" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/src/main/java/nubeLoRaVertx/App.java" />
         <option value="$PROJECT_DIR$/src/main/java/nubeLoRaVertx/test.kt" />
-        <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/nubeLoRaVertx/SerialApp/SerialComm.kt" />
-        <option value="$PROJECT_DIR$/src/main/java/nubeLoRaVertx/SerialApp/App.kt" />
+        <option value="$PROJECT_DIR$/src/main/java/vertx/eventBus/Receiver.kt" />
         <option value="$PROJECT_DIR$/src/main/java/vertx/eventBus/Sender.kt" />
         <option value="$PROJECT_DIR$/src/main/java/vertx/Handle/RestHendle.kt" />
-        <option value="$PROJECT_DIR$/src/main/java/vertx/eventBus/Receiver.kt" />
+        <option value="$PROJECT_DIR$/src/main/java/vertx/Main.kt" />
+        <option value="$PROJECT_DIR$/src/main/java/vertx/MainVerticle.kt" />
+        <option value="$PROJECT_DIR$/src/main/java/nubeLoRaVertx/SerialApp/SerialComm.kt" />
+        <option value="$PROJECT_DIR$/src/main/java/nubeLoRaVertx/SerialApp/App.kt" />
+        <option value="$PROJECT_DIR$/src/main/java/nubeLoRaVertx/SerialApp/kotlinHash.kt" />
+        <option value="$PROJECT_DIR$/src/arduinoExample.c" />
+        <option value="$PROJECT_DIR$/src/main/java/Response/getUsersRes.kt" />
+        <option value="$PROJECT_DIR$/src/main/java/App.kt" />
+        <option value="$PROJECT_DIR$/src/main/java/Handle/returnJson.kt" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/db/dbPath.kt" />
+        <option value="$PROJECT_DIR$/src/main/java/Response/getSensorsRes.kt" />
+        <option value="$PROJECT_DIR$/src/main/java/Response/getNodeIDRes.kt" />
+        <option value="$PROJECT_DIR$/src/main/java/Response/Sensor.kt" />
+        <option value="$PROJECT_DIR$/src/main/java/Handle/AddSensorHandler.kt" />
+        <option value="$PROJECT_DIR$/src/main/java/db/SqlConnector.kt" />
+        <option value="$PROJECT_DIR$/src/main/java/MainVerticle.kt" />
+        <option value="$PROJECT_DIR$/src/main/java/Response/addSensor.kt" />
+        <option value="$PROJECT_DIR$/src/main/java/Response/updateSensor.kt" />
+        <option value="$PROJECT_DIR$/src/main/java/Response/getNodeID.kt" />
+        <option value="$PROJECT_DIR$/src/main/java/Handle/RestHendle.kt" />
+        <option value="$PROJECT_DIR$/src/main/java/nubeLoRaVertx/SerialApp/test.kt" />
+        <option value="$PROJECT_DIR$/src/main/java/Response/getAllSensors.kt" />
+        <option value="$PROJECT_DIR$/src/main/java/nubeLoRaVertx/SerialApp/vertxWebClientAddSensor.kt" />
+        <option value="$PROJECT_DIR$/src/main/java/nubeLoRaVertx/SerialApp/AllowedSensors.kt" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="284" />
-    <option name="y" value="75" />
-    <option name="width" value="1869" />
-    <option name="height" value="1059" />
+    <option name="x" value="387" />
+    <option name="y" value="342" />
+    <option name="width" value="1389" />
+    <option name="height" value="789" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -147,6 +238,14 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="Handle" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="nubeLoRaVertx" type="b2602c69:ProjectViewProjectNode" />
+              <item name="nubeLoRaVertx" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="SerialApp" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -155,40 +254,35 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="vertx" type="462c0819:PsiDirectoryNode" />
+              <item name="Response" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="nubeLoRaVertx" type="b2602c69:ProjectViewProjectNode" />
               <item name="nubeLoRaVertx" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="vertx" type="462c0819:PsiDirectoryNode" />
-              <item name="eventBus" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="nubeLoRaVertx" type="b2602c69:ProjectViewProjectNode" />
-              <item name="nubeLoRaVertx" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="vertx" type="462c0819:PsiDirectoryNode" />
-              <item name="Handle" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/java/vertx" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/java" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyKotlinDeclarationDialog.RECENTS_KEY">
+      <recent name="db" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/java" />
       <recent name="$PROJECT_DIR$/src/main/java/vertx" />
     </key>
   </component>
@@ -204,41 +298,67 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Kotlin.nubeLoRaVertx.SerialApp.AppKt">
-    <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="nubeLoRaVertx.App" />
-      <module name="nubeLoRaVertx" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="nubeLoRaVertx.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="nubeLoRaVertx.SerialApp.AppKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Kotlin.nubeLoRaVertx.SerialApp.AllowedSensorsKt">
+    <configuration name="kotlinstuff.App" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
       <module name="nubeLoRaVertx" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" value="nubeLoRaVertx.SerialApp.AppKt" />
+      <option name="MAIN_CLASS_NAME" value="kotlinstuff.App" />
       <option name="WORKING_DIRECTORY" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="nubeLoRaVertx.TestKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
+    <configuration name="kotlinstuff.nubeLoRaVertx.SerialApp.TestKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
       <module name="nubeLoRaVertx" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" value="nubeLoRaVertx.TestKt" />
+      <option name="MAIN_CLASS_NAME" value="kotlinstuff.nubeLoRaVertx.SerialApp.TestKt" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="kotlinstuff.nubeLoRaVertx.SerialApp.VertxWebClientAddSensorKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
+      <module name="nubeLoRaVertx" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" value="kotlinstuff.nubeLoRaVertx.SerialApp.VertxWebClientAddSensorKt" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="nubeLoRaVertx.SerialApp.AllowedSensorsKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
+      <module name="nubeLoRaVertx" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" value="nubeLoRaVertx.SerialApp.AllowedSensorsKt" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="nubeLoRaVertx.SerialApp.VertxWebClientAddSensorKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
+      <module name="nubeLoRaVertx" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" value="nubeLoRaVertx.SerialApp.VertxWebClientAddSensorKt" />
       <option name="WORKING_DIRECTORY" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -246,9 +366,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Kotlin.nubeLoRaVertx.SerialApp.AppKt" />
-        <item itemvalue="Kotlin.nubeLoRaVertx.TestKt" />
-        <item itemvalue="Application.App" />
+        <item itemvalue="Kotlin.nubeLoRaVertx.SerialApp.AllowedSensorsKt" />
+        <item itemvalue="Kotlin.nubeLoRaVertx.SerialApp.VertxWebClientAddSensorKt" />
+        <item itemvalue="Kotlin.kotlinstuff.nubeLoRaVertx.SerialApp.VertxWebClientAddSensorKt" />
+        <item itemvalue="Kotlin.kotlinstuff.nubeLoRaVertx.SerialApp.TestKt" />
+        <item itemvalue="Kotlin.kotlinstuff.App" />
       </list>
     </recent_temporary>
   </component>
@@ -295,105 +417,279 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="67" y="25" width="2493" height="1415" extended-state="6" />
+    <frame x="67" y="25" width="1853" height="1055" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Image Layers" />
-      <window_info id="Designer" />
-      <window_info id="UI Designer" />
-      <window_info id="Capture Tool" />
-      <window_info id="Favorites" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2496935" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Version Control" />
-      <window_info anchor="bottom" id="Terminal" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" weight="0.32919255" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.66573036" visible="true" weight="0.2241284" />
+      <window_info id="Structure" order="1" sideWeight="0.33426967" side_tool="true" visible="true" weight="0.2241284" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32996893" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32919255" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49979568" visible="true" weight="0.23110151" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="right" id="Palette" />
-      <window_info anchor="right" id="Theme Preview" />
-      <window_info anchor="right" id="Kotlin Bytecode" weight="0.22313036" />
-      <window_info anchor="right" id="Maven" />
-      <window_info anchor="right" id="Capture Analysis" />
-      <window_info anchor="right" id="Palette&#9;" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.3297414" />
+      <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.5002043" side_tool="true" weight="0.32919255" />
+      <window_info anchor="bottom" id="Version Control" order="9" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.32721382" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Kotlin Bytecode" order="4" weight="0.22313036" />
+      <window_info anchor="right" id="Theme Preview" order="5" />
+      <window_info anchor="right" id="Maven" order="6" />
+      <window_info anchor="right" id="Capture Analysis" order="7" />
+      <window_info anchor="right" id="Palette&#9;" order="8" />
     </layout>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/pom.xml">
+    <entry file="file://$PROJECT_DIR$/src/main/java/nubeLoRaVertx/App.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/nubeLoRaVertx/test.kt" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/vertx/eventBus/Receiver.kt" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/vertx/eventBus/Sender.kt" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/vertx/Handle/RestHendle.kt" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/vertx/Main.kt" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/vertx/MainVerticle.kt" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/Response/sqlGet.kt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/arduinoExample.c">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="538">
-          <caret line="67" column="33" lean-forward="true" selection-start-line="67" selection-start-column="33" selection-end-line="67" selection-end-column="33" />
+        <state relative-caret-position="252">
+          <caret line="14" column="17" selection-start-line="14" selection-start-column="17" selection-end-line="14" selection-end-column="17" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/nubeLoRaVertx/App.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/Handle/returnJson.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="36">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        <state relative-caret-position="144">
+          <caret line="8" column="26" selection-start-line="8" selection-start-column="8" selection-end-line="8" selection-end-column="26" />
           <folding>
-            <element signature="e#120#121#0" expanded="true" />
-            <element signature="e#172#173#0" expanded="true" />
+            <element signature="e#28#103#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/nubeLoRaVertx/test.kt">
+    <entry file="jar:///usr/lib/jvm/java-8-openjdk-amd64/jre/lib/rt.jar!/java/sql/ResultSet.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2041">
+          <caret line="68" column="11" selection-start-line="68" selection-start-column="11" selection-end-line="68" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/io/vertx/vertx-web/3.7.1/vertx-web-3.7.1.jar!/io/vertx/ext/web/RoutingContext.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="126">
-          <caret line="7" column="1" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="1" />
+          <caret line="27" column="17" selection-start-line="27" selection-start-column="17" selection-end-line="27" selection-end-column="17" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/nubeLoRaVertx/SerialApp/SerialComm.kt">
+    <entry file="file://$PROJECT_DIR$/src/main/java/App.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="522">
-          <caret line="29" lean-forward="true" selection-start-line="29" selection-end-line="29" />
+        <state relative-caret-position="288">
+          <caret line="16" selection-start-line="16" selection-end-line="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Handle/AddSensorHandler.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="486">
+          <caret line="33" column="19" lean-forward="true" selection-start-line="33" selection-start-column="19" selection-end-line="33" selection-end-column="40" />
           <folding>
-            <element signature="e#33#255#0" expanded="true" />
+            <element signature="e#28#301#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty-codec-http/4.1.34.Final/netty-codec-http-4.1.34.Final.jar!/io/netty/handler/codec/http/HttpResponseStatus.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="271" column="15" selection-start-line="271" selection-start-column="15" selection-end-line="271" selection-end-column="15" />
+          <folding>
+            <element signature="e#12330#12331#0" expanded="true" />
+            <element signature="e#12362#12363#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/db/SqlConnector.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="19" column="25" selection-start-line="19" selection-start-column="25" selection-end-line="19" selection-end-column="25" />
+          <folding>
+            <element signature="e#12#97#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/jetbrains/kotlin/kotlin-stdlib/1.3.40/kotlin-stdlib-1.3.40-sources.jar!/kotlin/text/StringsJVM.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="227">
+          <caret line="284" column="35" selection-start-line="284" selection-start-column="35" selection-end-line="284" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///usr/lib/jvm/java-8-openjdk-amd64/jre/lib/rt.jar!/java/sql/PreparedStatement.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="227">
+          <caret line="36" column="9" selection-start-line="36" selection-start-column="9" selection-end-line="36" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/MainVerticle.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="297">
+          <caret line="26" column="53" selection-start-line="26" selection-start-column="53" selection-end-line="26" selection-end-column="53" />
+          <folding>
+            <element signature="e#21#291#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/db/dbPath.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="5" selection-start-line="5" selection-end-line="5" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///usr/lib/jvm/java-8-openjdk-amd64/jre/lib/rt.jar!/java/util/ArrayList.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="227">
+          <caret line="38" column="11" selection-start-line="38" selection-start-column="11" selection-end-line="38" selection-end-column="11" />
+          <folding>
+            <element signature="e#1241#1242#0" expanded="true" />
+            <element signature="e#1309#1310#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/json/json/20180813/json-20180813.jar!/org/json/JSONArray.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="227">
+          <caret line="209" column="22" selection-start-line="209" selection-start-column="22" selection-end-line="209" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Response/getNodeID.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="675">
+          <caret line="52" column="23" lean-forward="true" selection-start-line="52" selection-start-column="23" selection-end-line="52" selection-end-column="23" />
+          <folding>
+            <element signature="e#18#116#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Response/Sensor.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="12" column="15" selection-start-line="12" selection-start-column="4" selection-end-line="12" selection-end-column="15" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/nubeLoRaVertx/SerialApp/App.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-column="31" />
+        <state relative-caret-position="531">
+          <caret line="98" selection-start-line="98" selection-end-line="98" />
           <folding>
             <element signature="e#33#140#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/vertx/eventBus/Sender.kt">
+    <entry file="file://$PROJECT_DIR$/src/main/java/Response/addSensor.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="31" selection-start-column="31" selection-end-column="31" />
+        <state relative-caret-position="144">
+          <caret line="8" selection-start-line="8" selection-end-line="8" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/vertx/Handle/RestHendle.kt">
+    <entry file="file://$PROJECT_DIR$/src/main/java/nubeLoRaVertx/SerialApp/SerialComm.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="36">
-          <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
+        <state relative-caret-position="394">
+          <caret line="24" column="42" selection-start-line="24" selection-start-column="42" selection-end-line="24" selection-end-column="42" />
+          <folding>
+            <element signature="e#33#255#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/vertx/Main.kt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/vertx/eventBus/Receiver.kt">
+    <entry file="file://$PROJECT_DIR$/src/main/java/Response/getAllSensors.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-column="43" />
+        <state relative-caret-position="333">
+          <caret line="40" column="51" selection-start-line="40" selection-start-column="51" selection-end-line="40" selection-end-column="51" />
+          <folding>
+            <element signature="e#18#142#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Response/updateSensor.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="558">
+          <caret line="31" column="8" selection-start-line="31" selection-start-column="8" selection-end-line="31" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/nubeLoRaVertx/SerialApp/test.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="19" selection-start-line="19" selection-end-line="21" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="70">
+          <caret line="44" column="17" selection-start-line="44" selection-start-column="17" selection-end-line="44" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/nubeLoRaVertx/SerialApp/kotlinHash.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="21" column="9" lean-forward="true" selection-start-line="21" selection-start-column="9" selection-end-line="21" selection-end-column="9" />
+          <folding>
+            <element signature="e#33#98#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/nubeLoRaVertx/SerialApp/vertxWebClientAddSensor.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+          <folding>
+            <element signature="e#45#146#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Handle/RestHendle.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+          <folding>
+            <element signature="e#17#401#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/nubeLoRaVertx/SerialApp/AllowedSensors.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="324">
+          <caret line="18" selection-start-line="18" selection-end-line="25" selection-end-column="67" />
+          <folding>
+            <element signature="e#34#151#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
