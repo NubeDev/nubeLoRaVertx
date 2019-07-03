@@ -2,26 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="232955ee-63ff-45f0-9fb1-038bd6ef198c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/nubeLoRaVertx/SerialApp/jsonWebToken.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/nubeLoRaVertx/SerialApp/postSensorDatatoBsAPI.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/test.db" beforeDir="false" afterPath="$PROJECT_DIR$/resources/test.db" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Handle/RestHendle.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Handle/RestHendle.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/MainVerticle.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/MainVerticle.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/nubeLoRaVertx/SerialApp/AllowedSensors.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/nubeLoRaVertx/SerialApp/AllowedSensors.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/nubeLoRaVertx/SerialApp/test.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/nubeLoRaVertx/SerialApp/test.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/nubeLoRaVertx/SerialApp/vertxWebClientAddSensor.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/nubeLoRaVertx/SerialApp/vertxWebClientAddSensor.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Handle/RestHendleKt$getAllSensorsHandler$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Handle/RestHendleKt$getAllSensorsHandler$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Handle/RestHendleKt$getUsersHandler$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Handle/RestHendleKt$getUsersHandler$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Handle/RestHendleKt$handleAddSensor$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Handle/RestHendleKt$handleAddSensor$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Handle/RestHendleKt$handleUpdateSensor$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Handle/RestHendleKt$handleUpdateSensor$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Handle/RestHendleKt.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Handle/RestHendleKt.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/nubeLoRaVertx.kotlin_module" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/META-INF/nubeLoRaVertx.kotlin_module" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/kotlinstuff/MainVerticle$start$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/kotlinstuff/MainVerticle$start$1.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/nubeLoRaVertx/SerialApp/AllowedSensorsKt$main$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/nubeLoRaVertx/SerialApp/AllowedSensorsKt$main$1.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/nubeLoRaVertx/SerialApp/AllowedSensorsKt.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/nubeLoRaVertx/SerialApp/AllowedSensorsKt.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/nubeLoRaVertx/SerialApp/VertxWebClientAddSensorKt$main$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/nubeLoRaVertx/SerialApp/VertxWebClientAddSensorKt$main$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/nubeLoRaVertx/SerialApp/VertxWebClientAddSensorKt.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/nubeLoRaVertx/SerialApp/VertxWebClientAddSensorKt.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -93,10 +77,10 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/nubeLoRaVertx/SerialApp/AllowedSensors.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="792">
-              <caret line="152" lean-forward="true" selection-start-line="152" selection-end-line="152" />
+            <state relative-caret-position="360">
+              <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
               <folding>
-                <element signature="e#34#298#0" expanded="true" />
+                <element signature="e#34#153#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -674,10 +658,10 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/nubeLoRaVertx/SerialApp/AllowedSensors.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="792">
-          <caret line="152" lean-forward="true" selection-start-line="152" selection-end-line="152" />
+        <state relative-caret-position="360">
+          <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
           <folding>
-            <element signature="e#34#298#0" expanded="true" />
+            <element signature="e#34#153#0" expanded="true" />
           </folding>
         </state>
       </provider>
