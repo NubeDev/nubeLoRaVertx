@@ -22,7 +22,7 @@ class MainVerticle : AbstractVerticle() {
             val router = Router.router(vertx)
             router.route().handler(BodyHandler.create())
 
-            router.get("/").handler({ req -> req.response().end("Welcome to My First RestAPI using Kotlin and Vertx!") })
+            router.get("/").handler({ req -> req.response().end("hey!") })
             router.get("/api/sql/:value").handler(getUsersHandler)
             router.get("/api/sql").handler(getAllSensorsHandler)
             router.post("/api/sql/add").handler(handleAddSensor)

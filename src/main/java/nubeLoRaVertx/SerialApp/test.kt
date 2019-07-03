@@ -6,6 +6,8 @@ import java.util.LinkedList
 fun main(args: Array<String>) {
 
 
+
+
     val sensorList = listOf<String>("111", "2")
     val msgNodeID1 = "111"
     val msgNodeID2 = "222"
@@ -20,6 +22,27 @@ fun main(args: Array<String>) {
 
     val aaa = vaildNodeId(sensorList, msgNodeID2)
     println(aaa)
+
+
+
+    fun readString2(a :Int, b: Int): Int {
+
+        val out = a+b
+
+        try {
+
+        } catch (e: Exception) {
+            e.printStackTrace()
+        }
+
+        return out
+    }
+
+    println(readString2(22,22))
+
+
+
+
 
 
 }
